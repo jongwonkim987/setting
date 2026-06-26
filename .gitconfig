@@ -1,0 +1,17 @@
+[user]
+	name = jongwonkim987
+	email = jongwonkim987@gmail.com
+[core]
+	excludesfile = /Users/admin/.gitignore_global
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /private/var/folders/zy/lkjwc_ks6y19rs_r52lbr0mm0000gn/T/AppTranslocation/B26A9B31-9E84-4E47-9176-AD30EB7BE4F5/d/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[alias]
+	lg = log --oneline --graph --all --decorate
+[init]
+	defaultBranch = main
+[commit]
+	template = /Users/admin/.stCommitMsg
